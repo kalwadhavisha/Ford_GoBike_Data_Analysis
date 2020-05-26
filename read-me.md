@@ -1,11 +1,29 @@
-Communicate Data Findings Project
-Udacity Dana Analyst Nanodegree
+# Ford GoBike Data Analysis
 
 Data Analysis/Data Visualization Report: Bike Ride Trends and Biker Types of Ford GoBike System February, 2020
 
 Dataset This document explores the Ford GoBike's trip data for public containing bike rides for the month of February 2020. The attributes included the trip start/end latitude/longitude, as well as additional measurements such as user type, rental access methods. About 90k data points were removed from the analysis due to missing values in some fields, data inconsistent, or outliner issues.
 
-Summary of Findings
+## Data Source
+
+The dataset, 202002-baywheels-tripdata.csv, is downloaded from https://s3.amazonaws.com/baywheels-data/index.html and licensed by Ford GoBike.
+Each trip in this dataset is anonymized and includes:
+
+- Trip Duration (seconds)
+- Start Time and Date
+- End Time and Date
+- Start Station ID
+- Start Station Name
+- Start Station Latitude
+- Start Station Longitude
+- End Station ID
+- End Station Name
+- End Station Latitude
+- End Station Longitude
+- Bike ID
+- User Type (Subscriber or Customer – “Subscriber” = Member or “Customer” = Casual)
+
+## Summary of Findings
 
 1. Bike rides on weekdays had greater usage durations than those on weekends.
 2. Bike rides were used maximum on Thursdays.
